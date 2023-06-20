@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282c34;
+    color: white;
+    height: 80px;
+  }
+  
+  .logo {
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    color: aliceblue;
+    /* border: 1px solid white; */
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    color: #34adcf;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #282c34;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .menu li:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .signin {
+    margin-right: 20px;
+  }
+  
+  .signin button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .signin button:hover {
+    background-color: #4ec0d8;
+  }
+  
+ 
